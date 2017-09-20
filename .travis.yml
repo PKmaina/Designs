@@ -1,5 +1,4 @@
 language: Python
-python: "3.6"
-
-
-script: pytest
+group: stable
+dist: trusty
+os: windows
