@@ -6,4 +6,5 @@ install:
       - make build
 
 script:
-     - echo \ TODO
+     - echo TODO
+
