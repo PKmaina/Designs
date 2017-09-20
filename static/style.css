@@ -8,6 +8,7 @@ body {
 
 p {
     text-align: left;
+    border: 5px solid green;
 }
 
 .head {
