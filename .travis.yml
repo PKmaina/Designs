@@ -1,4 +1,9 @@
 language: Python
-group: stable
-dist: trusty
-os: windows
+python:
+      - "3.6"
+
+install:
+      - make build
+
+script:
+     - echo \ TODO
