@@ -1,10 +1,4 @@
 language: Python
 python:
-     - 2.7
-
-install:
-      - make build
-
-script:
-     - echo TODO
+     - 3.6
 
