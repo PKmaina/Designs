@@ -1,10 +1,15 @@
 body {
-    background-color: blueviolet;
+    background-color: palegreen;
     background-size: cover;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #212529;
     font-weight: normal;
 }
+
+a,
+    a:visited {
+        text-decoration: underline;
+    }
 
 p {
     text-align: left;
@@ -31,4 +36,27 @@ p {
     margin: 2px auto;
     border: px solid #4B0505;
     padding-left: 5px;
+}
+
+html {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+}
+
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+header{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 20px;
+}
+.front article{
+    align-content: center;
 }
